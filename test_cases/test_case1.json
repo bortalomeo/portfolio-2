@@ -1,0 +1,17 @@
+{
+    "TestCase_id":"1",
+"Title":"Creating a product with a minimum price - 1r.",
+"Preconditions":"www.shop.ru page is open, user is authorized",
+"Priority":"High",
+"Steps":
+{
+  "1":"Fill in the name of the product Test product", 
+  "2":"Fill in product price 0.01",
+  "3":"Click the Save Product button"
+},
+"Expected result":
+{
+    "1":""Product Saved" Message Displayed",
+    "2":"Product with name "..." and price "..." saved in database"
+},
+}
