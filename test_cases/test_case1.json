@@ -11,7 +11,7 @@
 },
 "Expected result":
 {
-    "1":"Product Saved Message Displayed",
-    "2":"Product with name "..." and price "..." saved in database"
+    "1":"<Product Saved> Message Displayed",
+    "2":"Product with name <...> and price <...> saved in database"
 },
 }
