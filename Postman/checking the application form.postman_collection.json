@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "7f0aad84-c6d3-4272-b83b-3a0d4c4a970e",
+		"name": "checking the application form",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24752367"
+	},
+	"item": [
+		{
+			"name": "Проверка анкеты POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"birthday\": \"13.06.1999\",\r\n\"name\": \"Иван\",\r\n\"passport\": \"4444 № 44444444\",\r\n\"patronymic\": \"Иванович\",\r\n\"phone\": \"+7 (999)-999-99-99\",\r\n\"surname\": \"Иванов\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://zayavka-na-kartu-3.sdew.ru/",
+					"protocol": "http",
+					"host": [
+						"zayavka-na-kartu-3",
+						"sdew",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка анкеты GET",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

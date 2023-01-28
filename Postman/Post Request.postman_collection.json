@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "cbf7e228-3349-42ff-8043-20d37bdc56ce",
+		"name": "Post Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24752367"
+	},
+	"item": [
+		{
+			"name": "Delete Project",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "sJ7RqlgILZDsFRq0QMB7",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "yamushev@list.ru",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iamushevpostman.testrail.io/index.php?/api/v2/delete_project/1",
+					"protocol": "https",
+					"host": [
+						"iamushevpostman",
+						"testrail",
+						"io"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "/api/v2/delete_project/1",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
